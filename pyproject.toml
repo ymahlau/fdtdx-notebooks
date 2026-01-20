@@ -8,3 +8,8 @@ dependencies = [
     'fdtdx[dev]',
     'ipywidgets'
 ]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
